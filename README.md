@@ -59,8 +59,7 @@ Actively participating in coding challenges and developing problem-solving skill
 ## 📬 CONTACT ME
 
 - 📧 **Email**: [abumanglag24-0134@cca.edu.ph](mailto:abumanglag24-0134@cca.edu.ph)  
-- 👤 **Facebook**: [Angeline Bumanglag](https://www.facebook.com/) <!-- Add your real FB link -->
-- 🌐 **LinkedIn**: *Coming soon!*  
+- 👤 **Facebook**: [Angeline Bumanglag](https://www.facebook.com/)
 
 ---
 
