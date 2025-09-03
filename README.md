@@ -1,10 +1,8 @@
-<div style="background-color:#ffe6f0; padding: 20px; border-radius: 10px;">
-
-# 🌟 Angeline Bumanglag's Developer Journey
-
-![Angeline's Picture](https://via.placeholder.com/150) <!-- Replace this URL with your real photo URL -->
-
----
+> # 🌟 Angeline Bumanglag's Developer Journey
+> 
+> ![Angeline's Picture](https://via.placeholder.com/150) <!-- Replace with your real photo -->
+>
+> ---
 
 ## 👩‍💻 ABOUT ME
 
@@ -36,23 +34,23 @@ I work at **McDonald’s**, where I was awarded the **Rising Star** 🌟 — and
 
 Here are some of the projects I’m working on or have completed:
 
-- 🚧 *Coming soon!*
-- 📁 *Add links to your GitHub projects here*
+- 🚧 *Coming soon!*  
+- 📁 *Add links to your GitHub projects here*  
 
 ---
 
 ## 🤪 FUN FACTS ABOUT ME
 
-- I enjoy multitasking between cooking and debugging code. 🍜💻  
-- I'm lowkey competitive in Mobile Legends and love strategic gameplay. 🧠  
-- Cleaning helps me think clearly — it's like debugging, but in real life! 🧹  
-- I was once told I make the best fries at McDonald’s 🍟😂
+> 🍜 I enjoy multitasking between cooking and debugging code.  
+> 🔥 I'm lowkey competitive in Mobile Legends and love strategic gameplay.  
+> 🧹 Cleaning helps me think clearly — it's like debugging, but in real life!  
+> 🍟 I was once told I make the best fries at McDonald’s 😂  
 
 ---
 
 ## 🧠 EXPERIENCE
 
-📚 2023–Present: BS Computer Science — City College of Angeles  
+📚 **2023–Present**: BS Computer Science — City College of Angeles  
 Studying application development, networking, data structures, algorithms,  
 database concepts, and object-oriented programming.  
 Actively participating in coding challenges and developing problem-solving skills.
@@ -68,5 +66,3 @@ Actively participating in coding challenges and developing problem-solving skill
 ---
 
 ✨ *Thank you for visiting my profile! I'm still learning, but I'm excited for what's ahead.* 💪
-
-</div>
