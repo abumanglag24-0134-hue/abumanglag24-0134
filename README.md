@@ -1,6 +1,6 @@
 > # 🌟 Angeline Bumanglag's Developer Journey
 > 
-> ![Angeline's Picture](https://via.placeholder.com/150) <!-- Replace with your real photo -->
+> ![Angeline's Picture](https://avatars.githubusercontent.com/u/227550422?v=4)
 >
 > ---
 
