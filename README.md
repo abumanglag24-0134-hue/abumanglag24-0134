@@ -35,7 +35,6 @@ I work at **McDonald’s**, where I was awarded the **Rising Star** 🌟 — and
 Here are some of the projects I’m working on or have completed:
 
 - 🚧 *Coming soon!*  
-- 📁 *Add links to your GitHub projects here*  
 
 ---
 
