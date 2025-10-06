@@ -116,12 +116,46 @@
       font-style: italic;
       color: #555;
     }
+
+    /* PDF Button Style */
+    .pdf-button {
+      display: inline-block;
+      background-color: #cc3366;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      text-align: center;
+      animation: pulse 2s infinite;
+    }
+
+    .pdf-button:hover {
+      background-color: #ff6699;
+      transform: scale(1.05);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+    }
+
+    /* Center Button */
+    .button-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Animation */
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(204, 51, 102, 0.6); }
+      70% { box-shadow: 0 0 0 15px rgba(204, 51, 102, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(204, 51, 102, 0); }
+    }
   </style>
 </head>
 <body>
   <!-- Sidebar -->
   <aside class="sidebar">
-    <img src="(https://avatars.githubusercontent.com/u/227550422?v=4)" alt="Angeline's Picture">
+    <img src="https://avatars.githubusercontent.com/u/227550422?v=4" alt="Angeline's Picture">
     <h1>Angeline Bumanglag</h1>
     <p>🌟 Rising Star | CS Student | Developer</p>
     <nav>
@@ -166,11 +200,19 @@
       </ul>
     </section>
 
+    <!-- Updated Projects Section -->
     <section id="projects">
       <h2>🔗 Project Links</h2>
-      <ul>
-        <li>🚧 <i>Coming soon!</i></li>
-      </ul>
+      <p>Check out my midterm project below:</p>
+
+      <div class="button-container">
+        <a class="pdf-button" 
+          href="https://raw.githubusercontent.com/abumanglag24-0134-hue/angeline-s-portfolio/main/MIDTERM%20TASK%201_%20BAYBAYON,%20BUMANGLAG%20-%20STEP%201%20%26%202.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer">
+          📄 View My Midterm Task (PDF)
+        </a>
+      </div>
     </section>
 
     <section id="fun">
