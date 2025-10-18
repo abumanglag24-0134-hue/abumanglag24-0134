@@ -127,6 +127,7 @@
       text-align: center;
       animation: pulse 2s infinite;
       margin: 10px;
+      cursor: pointer;
     }
 
     .pdf-button:hover {
@@ -193,39 +194,30 @@
       </ul>
     </section>
 
-    <!-- ✅ FIXED PROJECTS SECTION -->
+    <!-- ✅ UPDATED MIDTERM TASKS SECTION -->
     <section id="projects">
       <h2>📚 Midterm Tasks</h2>
-      <p>Click below to view each PDF directly </p>
+      <p>Click a button below to preview each file instantly — no download needed!</p>
 
-      <div class="button-container"> <a class="pdf-button" target="_blank" 
-          href="https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%201_%20BAYBAYON%2C%20BUMANGLAG%20-%20STEP%201%20%26%202.pdf"> 
-          📄 Midterm Task 1
-        </a>
-        <a class="pdf-button" target="_blank"
-          href="https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%202_Bumanglag.pdf">
-          📄 Midterm Task 2
-        </a>
-        <a class="pdf-button" target="_blank"
-          href="https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%203_Bumanglag.pdf">
-          📄 Midterm Task 3
-        </a>
-        <a class="pdf-button" target="_blank"
-          href="https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%204_Bumanglag.pdf">
-          📄 Midterm Task 4
-        </a>
-        <a class="pdf-button" target="_blank"
-          href="https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%205_Bumanglag.pdf">
-          📄 Midterm Task 5
-        </a>
-        <a class="pdf-button" target="_blank"
-          href="https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%206_Bumanglag%2C%20Mangalino%20%231..pdf">
-          📄 Midterm Task 6 (Part 1)
-        </a>
-        <a class="pdf-button" target="_blank"
-          href="https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%206_Bumanglag%2C%20Mangalino%20%232..pdf">
-          📄 Midterm Task 6 (Part 2)
-        </a>
+      <div class="button-container">
+        <a class="pdf-button" onclick="showFile('https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%201_%20BAYBAYON%2C%20BUMANGLAG%20-%20STEP%201%20%26%202.docx')">📄 Midterm Task 1</a>
+
+        <a class="pdf-button" onclick="showFile('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%202_Bumanglag.pdf')">📄 Midterm Task 2</a>
+
+        <a class="pdf-button" onclick="showFile('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%203_Bumanglag.pdf')">📄 Midterm Task 3</a>
+
+        <a class="pdf-button" onclick="showFile('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%204_Bumanglag.pdf')">📄 Midterm Task 4</a>
+
+        <a class="pdf-button" onclick="showFile('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%205_Bumanglag.pdf')">📄 Midterm Task 5</a>
+
+        <a class="pdf-button" onclick="showFile('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%206_Bumanglag%2C%20Mangalino%20%231..pdf')">📄 Midterm Task 6 (Part 1)</a>
+
+        <a class="pdf-button" onclick="showFile('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%206_Bumanglag%2C%20Mangalino%20%232..pdf')">📄 Midterm Task 6 (Part 2)</a>
+      </div>
+
+      <!-- 📄 File preview area -->
+      <div id="preview-box" style="margin-top: 30px; text-align: center; display: none;">
+        <iframe id="file-viewer" src="" width="100%" height="600px" style="border: 2px solid #cc3366; border-radius: 10px;"></iframe>
       </div>
     </section>
 
@@ -257,5 +249,16 @@
       ✨ Thank you for visiting my portfolio! I'm still learning, but I'm excited for what's ahead. 💪
     </footer>
   </main>
+
+  <!-- 📜 Script for instant preview -->
+  <script>
+    function showFile(url) {
+      const previewBox = document.getElementById("preview-box");
+      const viewer = document.getElementById("file-viewer");
+      viewer.src = url;
+      previewBox.style.display = "block";
+      previewBox.scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
 </body>
 </html>
