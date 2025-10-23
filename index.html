@@ -113,7 +113,6 @@
       border: 2px solid #cc3366;
       border-radius: 10px;
       margin-top: 20px;
-      background: #222;
     }
 
     footer {
@@ -170,24 +169,22 @@
       </ul>
     </section>
 
-    <!-- ✅ FIXED PROJECTS SECTION -->
+    <!-- ✅ FIXED PROJECTS SECTION (Instant Preview, No Download) -->
     <section id="projects">
       <h2>📚 Midterm Tasks</h2>
       <p>Click below to preview my work instantly!</p>
 
       <div class="button-container">
-        <button class="pdf-button" onclick="showPDF('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%201_%20BAYBAYON%2C%20BUMANGLAG%20-%20STEP%201%20%26%202.pdf')">📄 Midterm Task 1</button>
-        <button class="pdf-button" onclick="showPDF('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%202_Bumanglag.pdf')">📄 Midterm Task 2</button>
-        <button class="pdf-button" onclick="showPDF('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%203_Bumanglag.pdf')">📄 Midterm Task 3</button>
-        <button class="pdf-button" onclick="showPDF('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%204_Bumanglag.pdf')">📄 Midterm Task 4</button>
-        <button class="pdf-button" onclick="showPDF('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%205_Bumanglag.pdf')">📄 Midterm Task 5</button>
-
-        <!-- ✅ FIXED LINKS FOR PART 1 AND 2 -->
-        <button class="pdf-button" onclick="showPDF('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%206_Bumanglag%2C%20Mangalino%20%231.pdf')">📄 Midterm Task 6 (Part 1)</button>
-        <button class="pdf-button" onclick="showPDF('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%206_Bumanglag%2C%20Mangalino%20%232.pdf')">📄 Midterm Task 6 (Part 2)</button>
+        <button class="pdf-button" onclick="showPDF('https://raw.githubusercontent.com/abumanglag24-0134-hue/angeline-s-portfolio/main/MIDTERM%20TASK%201_%20BUMANGLAG.pdf')">📄 Midterm Task 1</button>
+        <button class="pdf-button" onclick="showPDF('https://raw.githubusercontent.com/abumanglag24-0134-hue/angeline-s-portfolio/main/MIDTERM%20TASK%202_Bumanglag.pdf')">📄 Midterm Task 2</button>
+        <button class="pdf-button" onclick="showPDF('https://raw.githubusercontent.com/abumanglag24-0134-hue/angeline-s-portfolio/main/MIDTERM%20TASK%203_Bumanglag.pdf')">📄 Midterm Task 3</button>
+        <button class="pdf-button" onclick="showPDF('https://raw.githubusercontent.com/abumanglag24-0134-hue/angeline-s-portfolio/main/MIDTERM%20TASK%204_Bumanglag.pdf')">📄 Midterm Task 4</button>
+        <button class="pdf-button" onclick="showPDF('https://raw.githubusercontent.com/abumanglag24-0134-hue/angeline-s-portfolio/main/MIDTERM%20TASK%205_Bumanglag.pdf')">📄 Midterm Task 5</button>
+        <button class="pdf-button" onclick="showPDF('https://raw.githubusercontent.com/abumanglag24-0134-hue/angeline-s-portfolio/main/MIDTERM%20TASK%206_Bumanglag%2C%20Mangalino%20%231.pdf')">📄 Midterm Task 6 (Part 1)</button>
+        <button class="pdf-button" onclick="showPDF('https://raw.githubusercontent.com/abumanglag24-0134-hue/angeline-s-portfolio/main/MIDTERM%20TASK%206_Bumanglag%2C%20Mangalino%20%232.pdf')">📄 Midterm Task 6 (Part 2)</button>
       </div>
 
-      <iframe id="viewer-frame" src=""></iframe>
+      <iframe id="viewer-frame" src="" allowfullscreen></iframe>
     </section>
 
     <section id="fun">
@@ -218,15 +215,9 @@
   </main>
 
   <script>
-    // ✅ Show PDF directly using the browser's viewer
     function showPDF(url) {
-      document.getElementById('viewer-frame').src = url + "#toolbar=0";
+      document.getElementById('viewer-frame').src = url;
     }
-
-    // Optional: Automatically show Part 1 on load
-    window.onload = function() {
-      showPDF('https://github.com/abumanglag24-0134-hue/angeline-s-portfolio/raw/main/MIDTERM%20TASK%206_Bumanglag%2C%20Mangalino%20%231.pdf');
-    };
   </script>
 </body>
 </html>
